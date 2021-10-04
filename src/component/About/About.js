@@ -13,7 +13,7 @@ const About = () => {
               <div className="px-3 mb-5">
               <h1>E-LEARNING</h1>
             <h5>About : Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit eaque vero, deleniti temporibus laudantium deserunt!</h5>
-            <p>Description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sequi accusamus accusantium. Error voluptate blanditiis molestias ea beatae iusto, debitis dolor. Aliquid possimus consequuntur in aut laudantium? Fugiat nam ut quaerat officiis. Aut quam sed dolores, maiores debitis dignissimos amet.</p>
+            <p>Description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sequi accusamus accusantium. Error voluptate blanditiis molestias ea beatae iusto, debitis dolor. Aliquid possimus consequuntur in aut laudantium? Fugiat nam ut quaerat officiis. Aut quam sed dolores, maiores debitis dignissimos .</p>
              </div>
             </div>
                
