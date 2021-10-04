@@ -2,8 +2,7 @@
 import './App.css';
 
 import Footer from './component/Footer/Footer';
-// import 'bootstrap/dist/css/bootstrap.min.css';
-import Header from './component/Header/Header';
+
 
 
 

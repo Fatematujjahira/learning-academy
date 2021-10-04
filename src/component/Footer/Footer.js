@@ -1,11 +1,12 @@
 import React from 'react';
 import './Footer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+import { faPhoneSquareAlt,  } from '@fortawesome/free-solid-svg-icons';
+import {  NavLink } from 'react-router-dom';
 
 const Footer = () =>
 {
-    const element = <FontAwesomeIcon icon={faCoffee} />
+    const element = <FontAwesomeIcon icon={faPhoneSquareAlt} />
     return (
         <div>
         <div className="footer-container">
@@ -32,13 +33,31 @@ const Footer = () =>
               </div>
               <div className="col-md-2">
                 <div className="footer-menu-container">
-                  <ul>
-                    <li className="footer-menu">Home</li>
-                    <li className="footer-menu">Services</li>
-                    
-                    <li className="footer-menu">Contact us</li>
-                    <li className="footer-menu"> About us</li>
-                  </ul>
+                  <div className="">
+                    <ul>
+                      <li>
+                    <NavLink
+        className="items"
+        to="/home"
+      >Home</NavLink></li>
+      <li>
+      <NavLink
+         className="items"
+        to="/service"
+        >Service</NavLink>
+      </li>
+      <li><NavLink
+        className="items"
+        to="/about"
+      >About Us</NavLink></li>
+      <li><NavLink
+        className="items"
+        to="/instructor"
+      >Instructor</NavLink>
+                  </li>
+                    </ul>
+                  </div>
+                  
                 </div>
               </div>
               <div className="col-md-5">
