@@ -1,0 +1,14 @@
+.serviceimg{
+    background-color: rgb(248, 244, 244);
+   
+    border: 1px solid rgb(84, 83, 83);
+    box-shadow: 10px 10px 6px rgba(198, 196, 196, 0.761) ;
+}
+.service-img{
+    height: 300px;
+
+}
+
+.serviceCard{
+    border: 3px solid gray;
+}

@@ -1,0 +1,19 @@
+.navber{
+    background-color: #282828;
+   
+    text-align: right;
+    font-size: 25px;
+    font-weight: 400;
+  
+    cursor: pointer;
+    padding: 10px;
+    
+}
+.items{
+    text-decoration: none;
+    margin: 25px;
+    color: rgb(235, 229, 229);
+}
+.items:hover{
+    color: rgb(240, 11, 11);
+}

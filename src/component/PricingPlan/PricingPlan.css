@@ -1,0 +1,18 @@
+.pricingPlan{
+    background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v748-toon-59_1_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=9d218783a69276bc814fa95b4753f9c3"),
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+   margin-top: 20px;
+    
+}
+
+.card{
+   background-color: rgb(248, 244, 244);
+   
+    border: 1px solid rgb(84, 83, 83);
+    box-shadow: 10px 10px 6px rgba(198, 196, 196, 0.761) ;
+}
+.card:hover{
+  background-color: rgb(242, 227, 243);  
+  box-shadow: 10px 10px 6px rgba(124, 124, 124, 0.761) ;
+  transition: 1s;
+}
