@@ -7,16 +7,16 @@ import './About.css'
 
 const About = () =>
 {
-  // const element = <FontAwesomeIcon icon={faStar } />
+  
   
     return (
         <div className="container">
             <div className="main  p-5  m-3">
-          <h1 className="title">ABOUT US</h1>
+          <h1 className="title"> ABOUT OUR COURSE <i class="fas fa-graduation-cap"></i> </h1>
   {/* -----------------------course details added-------------------- */}
               <div className=" about mt-4 ">                 
               <div className=" aboutt-detail px-3 mb-5">
-              <h1 className="text-warning">E-LEARNING SITE</h1>
+              <h1 className="text-warning p-2 mt-2">E-LEARNING SITE</h1>
             <h5 className="about-text mt-4">About : Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit eaque vero, deleniti temporibus laudantium deserunt!</h5>
               <p className="about-text mt-5">Description: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat iure esse ipsum. Harum consectetur, qui itaque maxime eaque error nihil voluptates. Accusantium culpa aliquam repellat error. Aspernatur quae eveniet officiis, architecto atque, reprehenderit iste cum nesciunt hic provident iusto ut, adipisci fuga tempore? Totam dolore dolorum ullam reprehenderit impedit delectus. Quam repellat corrupti quae dolorum! Magni veritatis voluptatem officiis aperiam sint quae ut aspernatur voluptate debitis corporis. Vitae, sunt corrupti? Eveniet eligendi tenetur pariatur ex culpa, blanditiis unde odit rerum?</p>
               
@@ -26,7 +26,7 @@ const About = () =>
                
            </div><br />
   {/*----------------student review  start----------------- */}
-       <h1 className="title">Student Review</h1>
+       <h1 className="title">Student Review <i class="fas fa-user-graduate"></i></h1>
       <div className="row row-cols-1 row-cols-md-4 g-4 m-4">
           
 

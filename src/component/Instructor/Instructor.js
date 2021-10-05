@@ -11,7 +11,7 @@ const Instructor = () => {
         <h1 className="title">Top Tutors in Every Subject.</h1>
         {/* --------------------------instractor pic added---------------- */}
         
-           <div className="row row-cols-2 row-cols-md-3 g-4 m-4">
+           <div className="row row-cols-1 row-cols-md-3 g-4 m-4">
       <div className="col">
       <div className="card h-100">
       <img src={img3}className=" student card-img-top w-100" alt="..."/>
