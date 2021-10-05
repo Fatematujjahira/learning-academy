@@ -4,7 +4,7 @@ import './NavBar.css'
 
 const NavBar = () => {
   return (
-    <nav className="navber">
+    <nav className="navber fixed-top">
     
       <NavLink
         activeStyle={ {
