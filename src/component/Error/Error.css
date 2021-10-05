@@ -1,4 +1,11 @@
 .error{
     text-align: center;
-    font-size: 70px;
+    font-size: 60px;
+    color: red;
+    margin-top: 120px;
+}
+.errorimg{
+    height: 450px;
+  
+    
 }

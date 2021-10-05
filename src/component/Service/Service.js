@@ -55,7 +55,7 @@ const Service = () => {
 </Carousel>
       <div className="service">
         
-                <h1 className="animate__animated animate__slideInLeft title m-5">What We Do</h1>
+                <h1 className="animate__animated animate__slideInUp m-5">What We Do</h1>
             <div className="row">
  
   <div className="col-sm-6 mt-5">
