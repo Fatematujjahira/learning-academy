@@ -2,8 +2,8 @@ import React from 'react';
 import './PricingPlan.css'
 const PricingPlan = () => {
     return (
-        <div className="pricingPlan mt-5 mb-5 p-4">
-            <h1>Pricing plans</h1>
+        <div className="pricingPlan mt-5 p-2">
+            <h1 className="m-4">Pricing plans</h1>
            
             <div className="">
             <div className="row m-2 mx-auto ">

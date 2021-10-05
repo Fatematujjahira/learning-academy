@@ -1,5 +1,6 @@
 
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Footer from './component/Footer/Footer';
 
@@ -11,7 +12,7 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link,
+  
   BrowserRouter
 } from "react-router-dom";
 import Home from './component/Home/Home';
@@ -34,6 +35,7 @@ function App()
       <Router>
        <NavBar></NavBar>
         <Switch>
+          
           <Route exact path ="/">
           <Home></Home>
           </Route>
@@ -44,10 +46,11 @@ function App()
           <Service></Service>
           </Route>
           <Route path="/about">
-            <About></About>
+          <About></About>
+           
           </Route>
           <Route path="/instructor">
-           <Instructor></Instructor>
+          <Instructor></Instructor>
           </Route>
           <Route path="*">
             <Error></Error>

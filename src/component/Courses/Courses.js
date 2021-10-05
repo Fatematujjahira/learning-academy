@@ -20,11 +20,8 @@ const Courses = () =>{
       <div className="all-team">
         <h1 className="title">Popular Online Courses</h1>
       </div>
-      <div className="search-team">
-        <input className="p-2 m-2" type="text" placeholder="choose your course"/>{" "}
-        <button className="btn p-2 btn-danger">Search</button>
-      </div>
-      <div className="teams">
+     {/* -------------------cart----------------- */}
+      <div className="course">
         <div className="row">
           {courses?.map((courses) => (
             <div className="col-md-4">

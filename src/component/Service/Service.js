@@ -5,11 +5,11 @@ const Service = () => {
     return (
         <div className="container mt-4 p-2">
             <div className="service">
-                <h1 className="title">Our Service</h1>
+                <h1 className="title">What we do</h1>
             <div className="row">
  
   <div className="col-sm-6">
-      <h1>service</h1>
+      <h1>What we are taught</h1>
  <div className="">
    <img className="service-img w-100" src={'https://as1.ftcdn.net/v2/jpg/02/13/82/62/500_F_213826245_YDGakRFaMESU4Eb8Rxk29vPi6RVWePh3.jpg'} alt="" />
    </div>
@@ -18,38 +18,59 @@ const Service = () => {
      <div className="col-sm-6">
     <div className="card">
       <div className="card-body">
-        <h5 className="card-title">Special title treatment</h5>
+        <h5 className="card-title">Business English</h5>
         <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
        
       </div>
     </div><br />
     <div className="card ">
       <div className="card-body">
-        <h5 className="card-title">Special title treatment</h5>
+        <h5 className="card-title">Web Designing</h5>
         <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
        
       </div>
     </div><br />
     <div className="card">
       <div className="card-body">
-        <h5 className="card-title">Special title treatment</h5>
+        <h5 className="card-title">Financial Modeling</h5>
         <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
        
       </div>
     </div><br />
     <div className="card">
       <div className="card-body">
-        <h5 className="card-title">Special title treatment</h5>
+        <h5 className="card-title">Academic English
+        Deve Robbins</h5>
         <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
        
       </div>
     </div>
   </div>
 </div>
-</div>
-<div className=" p-4 m-4">
-   <Inspiratiob></Inspiratiob> 
-</div>
+        </div>
+        <div className="cataguries p-5 mt-5 ">
+          <h1>Learning Possibilities</h1>
+          <p className="mt-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet mollitia ducimus, illo numquam officiis architecto quasi pariatur perferendis delectus doloremque et saepe facilis, incidunt sed iure minus. Perferendis, sunt culpa!</p>
+          <ul>
+            <li><h5>
+              We enrich lives through learning.
+            </h5></li>
+            <li><h5>
+              Maximizing potential through individual attention
+            </h5></li>
+            <li><h5>
+              The trusted name for specialized training
+            </h5></li>
+            <li><h5>
+              People teach. People learn. This is where they connect.
+            </h5></li>
+            <li><h5>Together we create a loving community</h5></li>
+            
+          </ul>
+        </div>
+        <div className=" p-4 m-4">
+        <Inspiratiob></Inspiratiob> 
+        </div>
         </div>
     );
 };

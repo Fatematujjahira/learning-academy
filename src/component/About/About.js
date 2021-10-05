@@ -1,65 +1,88 @@
 import React from 'react';
+import Star from '../../Star/Star';
 import './About.css'
 
 
-const About = () => {
+
+
+const About = () =>
+{
+  // const element = <FontAwesomeIcon icon={faStar } />
+  
     return (
         <div className="container">
             <div className="main  p-5  m-3">
           <h1 className="title">ABOUT US</h1>
-          <div className="row row-cols-1 row-cols-md-2 g-4 m-4">
-                <div className=" about  ">
-                  <img className="image  m-4 h w-100 " src={'https://thumbs.dreamstime.com/b/rear-view-young-woman-working-laptop-inscription-screen-e-learning-image-square-academic-cap-girl-student-112505061.jpg'} alt="" />  
-              <div className="px-3 mb-5">
-              <h1>E-LEARNING</h1>
-            <h5>About : Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit eaque vero, deleniti temporibus laudantium deserunt!</h5>
-            <p>Description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sequi accusamus accusantium. Error voluptate blanditiis molestias ea beatae iusto, debitis dolor. Aliquid possimus consequuntur in aut laudantium? Fugiat nam ut quaerat officiis. Aut quam sed dolores, maiores debitis dignissimos .</p>
+  {/* -----------------------course details added-------------------- */}
+              <div className=" about mt-4 ">                 
+              <div className=" aboutt-detail px-3 mb-5">
+              <h1 className="text-warning">E-LEARNING SITE</h1>
+            <h5 className="about-text mt-4">About : Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit eaque vero, deleniti temporibus laudantium deserunt!</h5>
+              <p className="about-text mt-5">Description: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat iure esse ipsum. Harum consectetur, qui itaque maxime eaque error nihil voluptates. Accusantium culpa aliquam repellat error. Aspernatur quae eveniet officiis, architecto atque, reprehenderit iste cum nesciunt hic provident iusto ut, adipisci fuga tempore? Totam dolore dolorum ullam reprehenderit impedit delectus. Quam repellat corrupti quae dolorum! Magni veritatis voluptatem officiis aperiam sint quae ut aspernatur voluptate debitis corporis. Vitae, sunt corrupti? Eveniet eligendi tenetur pariatur ex culpa, blanditiis unde odit rerum?</p>
+              
+              <h3 className="text-warning">"Education is your door to the future"</h3>
              </div>
             </div>
                
            </div><br />
-                
+  {/*----------------student review  start----------------- */}
        <h1 className="title">Student Review</h1>
-     <div className="row row-cols-1 row-cols-md-4 g-4 m-4">
+      <div className="row row-cols-1 row-cols-md-4 g-4 m-4">
+          
+
+  {/* ----------------student pic added ----------------*/}
+
       <div className="col">
       <div className="card h-100">
-      <img src={'https://media.istockphoto.com/vectors/girl-studying-online-education-at-home-cartoon-vector-illustration-vector-id1280282619?k=20&m=1280282619&s=170667a&w=0&h=UUWsXOHC_TWd871US_Dmu4P33aGgO7KCn7sFREdqbQA='}className=" student card-img-top rounded-circle" alt="..."/>
+      <img src={'https://pixinvent.com/materialize-material-design-admin-template/app-assets/images/user/12.jpg'}className=" student card-img-top rounded-circle" alt="..."/>
       <div className="card-body">
-        <h5 className="card-title">Fateha Ayra</h5>
+                <h5 className="card-title">Fateha Ayra</h5>
+                <Star></Star>
+        <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+       </div>
+       </div>
+       </div>
+          
+         
+
+      <div className="col">   
+      <div className="card h-100">
+      <img src={'https://lh3.googleusercontent.com/ogw/ADea4I4ynicelZJdNrwDhh9g0vnVfRxemphXwllWNJRw=s83-c-mo'}className="card-img-top rounded-circle" alt="..."/>
+      <div className="card-body">
+                <h5 className="card-title">Farin</h5>
+               <Star></Star>
         <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
       </div>
-    </div>
-  </div>
-  <div className="col">
+      </div>
+      </div>
+          
+
+    <div className="col">
     <div className="card h-100">
-      <img src={'https://media.istockphoto.com/vectors/girl-studying-online-education-at-home-cartoon-vector-illustration-vector-id1280282619?k=20&m=1280282619&s=170667a&w=0&h=UUWsXOHC_TWd871US_Dmu4P33aGgO7KCn7sFREdqbQA='}className="card-img-top rounded-circle" alt="..."/>
+      <img src={'https://media-exp1.licdn.com/dms/image/C4D03AQGOQUXQlWwzYg/profile-displayphoto-shrink_200_200/0/1632237934324?e=1639008000&v=beta&t=dPgwkJlM8zBEJi1P8PFJYNnZRuegoH3bp8OSt5ql1OE'}className="card-img-top rounded-circle" alt="..."/>
       <div className="card-body">
-        <h5 className="card-title">Sckech</h5>
+                <h5 className="card-title">Faiza</h5>
+                <Star></Star>
         <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
       </div>
-    </div>
-  </div>
-  <div className="col">
+      </div>
+      </div>
+          
+
+
+    <div className="col">
     <div className="card h-100">
-      <img src={'https://media.istockphoto.com/vectors/girl-studying-online-education-at-home-cartoon-vector-illustration-vector-id1280282619?k=20&m=1280282619&s=170667a&w=0&h=UUWsXOHC_TWd871US_Dmu4P33aGgO7KCn7sFREdqbQA='}className="card-img-top rounded-circle" alt="..."/>
+      <img src={'https://avatars.githubusercontent.com/u/86653907?v=4'}className="card-img-top rounded-circle" alt="..."/>
       <div className="card-body">
-        <h5 className="card-title">Sckech</h5>
+                <h5 className="card-title">Jahira</h5>
+                <Star></Star>
         <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
       </div>
     </div>
-                    </div>
-                    <div className="col">
-    <div className="card h-100">
-      <img src={'https://media.istockphoto.com/vectors/girl-studying-online-education-at-home-cartoon-vector-illustration-vector-id1280282619?k=20&m=1280282619&s=170667a&w=0&h=UUWsXOHC_TWd871US_Dmu4P33aGgO7KCn7sFREdqbQA='}className="card-img-top rounded-circle" alt="..."/>
-      <div className="card-body">
-        <h5 className="card-title">Sckech</h5>
-        <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      </div>
     </div>
-  </div>
-  </div>
-            </div>
-        </div>
+    </div>
+    </div>
+       
     );
 };
 

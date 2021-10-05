@@ -5,7 +5,7 @@ import './NavBar.css'
 const NavBar = () => {
   return (
     <nav className="navber">
-     
+    
       <NavLink
         activeStyle={ {
         fontWeight: "semi-bold",
@@ -19,14 +19,7 @@ const NavBar = () => {
         color: "red"
         } } className="items"
         to="/service"
-        >Service</NavLink>
-      <NavLink
-        activeStyle={ {
-        fontWeight: "semi-bold",
-        color: "red"
-        } }className="items"
-        to="/about"
-      >About Us</NavLink>
+      >Service</NavLink>
       <NavLink
         activeStyle={ {
         fontWeight: "semi-bold",
@@ -34,6 +27,14 @@ const NavBar = () => {
         } }className="items"
         to="/instructor"
       >Instructor</NavLink>
+      <NavLink
+        activeStyle={ {
+        fontWeight: "semi-bold",
+        color: "red"
+        } }className="items"
+        to="/about"
+      >About Us</NavLink>
+      
     </nav>
   );
 };
