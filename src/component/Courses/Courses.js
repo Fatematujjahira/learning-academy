@@ -18,10 +18,10 @@ const Courses = () =>{
   return (
     <div className="container all-teams">
       <div className="all-team">
-        <h1 className="title">Popular Online Courses</h1>
+        <h1 className="title">POPULER <span className="color">ONLINE</span> COURSES</h1>
       </div>
      {/* -------------------cart----------------- */}
-      <div className="course">
+      <div className="course  mt-5">
         <div className="row">
           {courses?.map((courses) => (
             <div className="col-md-4">

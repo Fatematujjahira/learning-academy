@@ -1,4 +1,18 @@
-.sliderimg{
-    height: 200px;
-    /* width: 400px; */
+.header-container{
+    background-image: url('https://images.pexels.com/photos/5227311/pexels-photo-5227311.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'),
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(21, 20, 20, 0.5));
+    height: 400px;
+    width: 100%;
+    /* border: 1px solid red; */
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.header-title{
+    text-align: center;
+    color: rgb(245, 243, 240);
+    justify-content: center;
+    padding: 50px;
+    
 }

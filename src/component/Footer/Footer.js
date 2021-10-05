@@ -11,7 +11,7 @@ const Footer = () =>
     const element = <FontAwesomeIcon icon={faPhoneSquareAlt} />
     return (
         <div>
-        <div className="footer-container">
+        <div className="footer-container mt-5">
           <div className="container">
             <div className=" footer row">
               <div className="col-md-5">
@@ -58,6 +58,21 @@ const Footer = () =>
       </li>
      </ul>
      </div>
+       <div className="d-flex mt-4">
+       <div className="m-2">
+      <h3><i class="fab fa-facebook-square"></i></h3>
+      </div>
+      <div className="m-2">
+      <h3><i class="fab fa-instagram"></i></h3>
+      </div>
+      <div className="m-2">
+      <h3><i class="fab fa-linkedin"></i></h3>
+      </div>
+      <div className="m-2">
+      <h3><i class="fab fa-youtube"></i></h3>
+      </div>
+      </div>
+              
                   
      </div>
      </div>

@@ -27,11 +27,7 @@ function App()
   
   return (
     <div className="app">
-      {/* <Header></Header><hr/>
-      <Home></Home>
-      <Service></Service>
-      <About></About>
-      <Footer></Footer> */}
+     
       <Router>
        <NavBar></NavBar>
         <Switch>

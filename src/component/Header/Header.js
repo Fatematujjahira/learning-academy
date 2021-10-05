@@ -1,46 +1,13 @@
 import React from 'react';
-import { Carousel } from 'react-bootstrap';
-import img1 from'../../image/f1.jpg'
-import img2 from'../../image/f2.jpg'
-import img3 from'../../image/f3.jpg'
+import './Header.css'
+import "animate.css"
 const Header = () => {
   return (
-    <div>
-      <Carousel>
-  <Carousel.Item interval={1000}>
-    <img
-      className="d-block w-100"
-      src={img1}
-      alt="First slide"
-    />
-    <Carousel.Caption>
-      <h3>First slide label</h3>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-    </Carousel.Caption>
-  </Carousel.Item>
-  <Carousel.Item interval={500}>
-    <img
-      className=" sliderimg d-block w-100"
-      src={img2}
-      alt="Second slide"
-    />
-    <Carousel.Caption>
-      <h3>Second slide label</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    </Carousel.Caption>
-  </Carousel.Item>
-  <Carousel.Item>
-    <img
-      className="d-block w-100 "
-      src={img3}
-      alt="Third slide"
-    />
-    <Carousel.Caption>
-      <h3>Third slide label</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-    </Carousel.Caption>
-  </Carousel.Item>
-</Carousel>
+    <div className="header-container">
+      <div className="header-title">
+        <h1 className="animate__animated animate__slideInLeft ">Learning never exhausts the mind.</h1>
+        <p className="animate__animated animate__slideInRight">Education is the process of facilitating learning,<br /> or the acquisition of knowledge, skills, values, morals, beliefs, and habits. <br />... Education can take place in formal or informal settings, and any experience that has a <br /> formative effect on the way one thinks, feels, or acts may be considered educational.</p>
+     </div>
     </div>
   );
 };

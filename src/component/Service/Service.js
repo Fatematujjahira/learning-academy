@@ -1,23 +1,69 @@
 import React from 'react';
+import './Service.css'
+import { Carousel } from 'react-bootstrap';
 import Inspiratiob from '../Inspiration/Inspiratiob';
-
+import img1 from'../../image/f1.jpg'
+import img2 from'../../image/f5.jpg'
+import img3 from'../../image/f3.jpg'
 const Service = () => {
-    return (
-        <div className="container mt-4 p-2">
-            <div className="service">
-                <h1 className="title">What we do</h1>
+  return (
+      
+    <div className="container mb-4 p-2">
+      <Carousel fade>
+  <Carousel.Item className="carousel-container">
+    <img
+      className="d-block w-100"
+      src={img2}
+      alt="First slide"
+    />
+    <Carousel.Caption>
+      <h3>First slide label</h3>
+      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item className="carousel-container">
+    <img
+      className="d-block w-100"
+      src={img1}
+      alt="Second slide"
+    />
+
+    <Carousel.Caption>
+      <h3>Second slide label</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item className="carousel-container">
+    <img
+      className="d-block w-100"
+      src={img3}
+      alt="Third slide"
+    />
+
+    <Carousel.Caption>
+      <h3>Third slide label</h3>
+      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+    </Carousel.Caption>
+  </Carousel.Item>
+</Carousel>
+      <div className="service">
+        
+                <h1 className="title m-5">What We Do</h1>
             <div className="row">
  
-  <div className="col-sm-6">
-      <h1>What we are taught</h1>
+  <div className="col-sm-6 mt-5">
+      
  <div className="">
    <img className="service-img w-100" src={'https://as1.ftcdn.net/v2/jpg/02/13/82/62/500_F_213826245_YDGakRFaMESU4Eb8Rxk29vPi6RVWePh3.jpg'} alt="" />
    </div>
 
      </div>
-     <div className="col-sm-6">
-    <div className="card">
+     <div className="col-sm-6 mt-5">
+    <h1>What we are taught</h1>
+       
+    <div className="card mt-3">
       <div className="card-body">
+ 
         <h5 className="card-title">Business English</h5>
         <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
        

@@ -4,6 +4,9 @@
     border: 1px solid rgb(84, 83, 83);
     box-shadow: 10px 10px 6px rgba(198, 196, 196, 0.761) ;
 }
+.carousel-container{
+    height: 500px;
+}
 .service-img{
     height: 300px;
 

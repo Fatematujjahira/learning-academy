@@ -4,7 +4,9 @@
    margin-top: 20px;
     
 }
-
+.color{
+  color: tomato;
+}
 .card{
    background-color: rgb(248, 244, 244);
    
@@ -15,4 +17,19 @@
   background-color: rgb(242, 227, 243);  
   box-shadow: 10px 10px 6px rgba(124, 124, 124, 0.761) ;
   transition: 1s;
+}
+.cardstyle{
+  background-color: rgb(245, 245, 245);
+  color:rgb(242, 101, 88);
+  border-radius: 5px;
+  box-shadow: 9px 9px 6px rgba(179, 176, 176, 0.761);
+  border: 1px solid tomato;
+}
+.cardstyle:hover{
+  background-color: tomato;
+  color: rgb(255, 229, 229);
+  border-radius: 5px;
+  box-shadow:10px 10px 5px rgba(95, 95, 95, 0.761);
+  transition: 1s;
+  border: 1px solid rgb(111, 108, 108);
 }

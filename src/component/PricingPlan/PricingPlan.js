@@ -3,13 +3,13 @@ import './PricingPlan.css'
 const PricingPlan = () => {
     return (
         <div className="pricingPlan mt-5 p-2">
-            <h1 className="m-4">Pricing plans</h1>
+            <h1 className="title m-4">Pricing <span className="color">plan</span> </h1>
            
             <div className="">
             <div className="row m-2 mx-auto ">
                     
                     <div className="col-md-4 ">
-                      <div className="card">
+                      <div className="cardstyle">
                         <div className="card-body">
                           <h2 className="card-title">Basic Plan</h2>
                            <h2>$40</h2>
@@ -25,7 +25,7 @@ const PricingPlan = () => {
                       </div>
                     </div>
                     <div className="col-md-4">
-                      <div className="card">
+                      <div className="cardstyle">
                         <div className="card-body">
                           <h2 className="card-title">Professional</h2>
                            <h2>$66</h2>
@@ -41,7 +41,7 @@ const PricingPlan = () => {
                       </div>
                     </div>
                     <div className="col-md-4">
-                      <div className="card">
+                      <div className="cardstyle">
                         <div className="card-body">
                           <h2 className="card-title">Exclusive</h2>
                            <h2>$102</h2>
