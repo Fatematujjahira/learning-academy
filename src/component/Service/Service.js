@@ -1,10 +1,11 @@
 import React from 'react';
 import './Service.css'
-import { Carousel } from 'react-bootstrap';
+import { Button, Carousel } from 'react-bootstrap';
 import Inspiratiob from '../Inspiration/Inspiratiob';
-import img1 from'../../image/f1.jpg'
+import img3 from'../../image/f1.jpg'
 import img2 from'../../image/f5.jpg'
-import img3 from'../../image/f3.jpg'
+import img1 from '../../image/a1.jpg'
+import "animate.css"
 const Service = () => {
   return (
       
@@ -13,24 +14,28 @@ const Service = () => {
   <Carousel.Item className="carousel-container">
     <img
       className="d-block w-100"
-      src={img2}
+      src={img1}
       alt="First slide"
     />
     <Carousel.Caption>
       <h3>First slide label</h3>
       <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      <Button className="p-3 m-2" variant="outline-danger">REGISTER NOW
+      </Button>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item className="carousel-container">
     <img
       className="d-block w-100"
-      src={img1}
+      src={img2}
       alt="Second slide"
     />
 
     <Carousel.Caption>
       <h3>Second slide label</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+       <Button className="p-3 m-2" variant="outline-danger">REGISTER NOW
+      </Button>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item className="carousel-container">
@@ -43,12 +48,14 @@ const Service = () => {
     <Carousel.Caption>
       <h3>Third slide label</h3>
       <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      <Button className="p-3 m-2" variant="outline-danger">REGISTER NOW
+      </Button>
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
       <div className="service">
         
-                <h1 className="title m-5">What We Do</h1>
+                <h1 className="animate__animated animate__slideInLeft title m-5">What We Do</h1>
             <div className="row">
  
   <div className="col-sm-6 mt-5">
